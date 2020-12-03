@@ -1,0 +1,25 @@
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <com.sin.android.camhxa1.CameraPreview
+        android:id="@+id/cameraView"
+        android:layout_width="450dp"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_toRightOf="@+id/cameraView" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_toRightOf="@+id/cameraView"
+        android:layout_below="@+id/imageView"
+        android:text="TextView" />
+</RelativeLayout >
